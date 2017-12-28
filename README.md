@@ -21,3 +21,7 @@ func main() {
   // path is now /home/user/.bash_profile.
 }
 ```
+
+License
+-------
+This software is distributed under the BSD-style license found in the LICENSE file.
