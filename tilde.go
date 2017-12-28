@@ -15,10 +15,9 @@ func New(p string) (string, error) {
 		return p, nil
 	}
 
-	results := pathRegex.FindStringSubmatch(p)[2:]
-
 	var tildePath string
 
+	results := pathRegex.FindStringSubmatch(p)[2:]
 	switch results[0] {
 	case "":
 		u, err := user.Current()
